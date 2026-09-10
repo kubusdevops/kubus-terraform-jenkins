@@ -13,7 +13,7 @@ variable "controller_instance_type" {
 variable "ami_id" {
   type        = string
   description = "ami"
-  default     = "ami-081b0a6eac00b4f53"
+  default     = "ami-0354c98ae10b02961"
 }
 
 variable "vpc_id" {

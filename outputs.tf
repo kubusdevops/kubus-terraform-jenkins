@@ -1,5 +1,5 @@
 output "jenkins_load_balancer_url" {
-  value       = "http://${aws_lb.jenkins_app_nlb.dns_name}"
+  value       = "http://${aws_lb.jenkins_app_alb.dns_name}"
   description = "The public web address to instantly access your Jenkins dashboard page"
 }
 
