@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo yum install java-11-amazon-corretto-headless -y
+sudo yum install java-21-amazon-corretto-headless -y
 
 #Install Terraform
 sudo yum install -y yum-utils shadow-utils
